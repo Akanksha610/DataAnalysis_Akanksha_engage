@@ -3,6 +3,7 @@ import plotly_express as px
 import pandas as pd
 
 def app():
+    #Taking Data Input
     st.title("Cars Numeric Data Visualization")
     st.sidebar.subheader("Visualization Settings")
     uploaded_file=st.sidebar.file_uploader(label="Upload your CSV file."
